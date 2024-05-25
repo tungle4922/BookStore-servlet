@@ -1,0 +1,233 @@
+.cart {
+    /* margin-top: 80px; */
+    /* margin-bottom: 80px; */
+    padding: 102px 84px;
+    min-height: 650px;
+}
+
+.cart-box {
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 40px 70px;
+    box-shadow: 0 2px 15px -3px rgba(0,0,0,0.07),0 10px 20px -2px rgba(0,0,0,0.04);
+    ;
+}
+
+.cart-box-title {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding-bottom: 15px;
+}
+
+.cart-box-title {
+    font-size: 1.2rem;
+    /* color: #bbb1b1; */
+    /* font-weight: 550; */
+}
+
+.course-cart {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-img {
+    border: 2px solid #ccc;
+    width: 156px;
+    height: 86px;
+    border-radius: 9px;
+    object-fit: cover;
+}
+
+.name-and-type {
+
+}
+
+.cart-name {
+    font-size: 1rem;
+    font-weight: 500;
+    overflow: hidden;
+    /*height: 2.5rem;*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.cart-price {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.cart-type {
+    font-size: 0.8rem;
+    color: #bbb1b1;
+}
+
+.cart-quantity {
+    font-size: 0.8rem;
+    color: #bbb1b1;
+}
+
+.cart-heart {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid #e5e5e5;
+    padding: 7px 12px;
+    margin-right: 12px;
+}
+
+.cart-heart-icon {
+    color: #5c4f4f;
+}
+
+.cart-heart-icon:hover {
+    color: red;
+}
+
+.cart-btn {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid #e5e5e5;
+    padding: 7px 14px;
+    cursor: pointer;
+}
+
+.cart-box-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 20px 10px 10px 10px;
+    border-top: 1.5px solid #ccc;
+}
+
+.empty-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+}
+
+.emty-cart-img {
+    width: 600px;
+}
+
+.payment-box-1 {
+    margin-bottom: 15px;
+}
+
+.payment-box-1,
+.payment-box-2 {
+    padding: 18px;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    box-shadow: 0 2px 15px -3px rgba(0,0,0,0.07),0 10px 20px -2px rgba(0,0,0,0.04);
+    ;
+}
+
+.payment-box-title {
+
+}
+
+.coupon-input {
+    padding: 4px 18px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 1px solid #000;
+    margin-bottom: 13px;
+    width: 74%;
+}
+
+.apply-btn {
+    background-color: #2081E2;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 6.5px 8px 4.5px 8px;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.payment-box-2-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-box-2-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-box-2-img {
+    margin-top: 5px;
+    padding: 20px 10px 10px 10px;
+    border-top: 1.5px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purchase-btn {
+    background-color: #2081E2;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 25px;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.purchase-text {
+    font-size: 18px;
+    margin: 10px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #272A31;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80vw;
+    height: 70vh;
+    border-radius: 20px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-group {
+    display: flex;
+    text-decoration: none;
+}

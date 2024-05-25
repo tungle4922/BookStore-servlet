@@ -1,0 +1,32 @@
+.about-us {
+    padding: 150px 84px;
+}
+
+.about-us-title {
+    font-size: 3.5rem;
+    margin-bottom: 35px;
+}
+
+.about-us-content {
+    line-height: 2.5rem;
+    text-align: justify;
+}
+
+.row2 {
+    margin-top: 80px;
+}
+
+.row2-box-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row2-title {
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.row2-img {
+    width: 18%;
+}

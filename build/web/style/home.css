@@ -1,0 +1,24 @@
+.app-container {
+    padding: 102px 84px;
+}
+
+.slider {
+    height: 270px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.course-title1 {
+    padding: 16px 0 16px 0;
+}
+
+.course-box {
+    margin-bottom: 16px;
+    height: 171px;
+}
+
+.cpro-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 9px;
+}
